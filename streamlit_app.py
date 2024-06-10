@@ -1,7 +1,7 @@
 # Import python packages
 import streamlit as st
 import pandas as pd
-from snowflake.snowpark.context import get_active_session
+import requests
 from snowflake.snowpark.functions import col
 #from st_aggrid import AgGrid
 
